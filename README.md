@@ -1,4 +1,4 @@
-<h2>Welcome to SciServer Compute's example notebooks!</h2>
+<h2>Welcome to SciServer's <a href='https://github.com/sciserver/Example-Notebooks'>Example Notebooks</a> for Compute!</h2>
 
 <h3>Table of Contents</h3>
 <ul>
