@@ -34,7 +34,5 @@
 
 <h3 id="contact">Contact</h3>
 
-[Find out license info from Mike R and put link to license file here.]
-
 <p>For technical questions or to report a bug, please email sciserver-helpdesk@jhu.edu.</p>
 <p>For more information about SciServer, what it is, and what you can do with it, please visit www.sciserver.org.</p>
