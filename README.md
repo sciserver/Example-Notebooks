@@ -16,9 +16,9 @@
 
 <h3 id="installation">Installation</h3>
 
-<p>To install the example notebooks in a new container, open the file README.ipynb. Click on the second code box, then click the Play button to run those commands.</p>
+For information on installing Example Notebooks, please see https://github.com/sciserver/Example-Notebooks/wiki/How-to-Install.
 
-[Add link to installation page on Wiki.]
+For information on updating Example Notebooks, please see https://github.com/sciserver/Example-Notebooks/wiki/How-to-Update.
 
 <h3 id="usage">Usage</h3>
 
