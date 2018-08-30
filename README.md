@@ -4,7 +4,6 @@
 <ul>
 <li><a href="#description">Description</a></li>
 <li><a href="#installation">Installation</a></li>
-<li><a href="#usage">Usage</a></li>
 <li><a href="#contributing">Contributing</a></li>
 <li><a href="#license">License</a></li>
 <li><a href="#contact">Contact</a></li>
@@ -16,11 +15,9 @@
 
 <h3 id="installation">Installation</h3>
 
-<p>The easiest way to get these Example Notebooks is to log in to SciServer and go to <a href="https://apps.sciserver.org/compute/">SciServer Compute</a>. Click <strong>Create Container</strong> to open the Create Container dialog box. 
+<p>The easiest way to get these Example Notebooks is to log in to SciServer and go to <a href="https://apps.sciserver.org/compute/">SciServer Compute</a>. Click <strong>Create Container</strong> to open the Create Container dialog box. At the bottom of the newly-opened dialog box, you will see a list of <strong>Data volumes</strong>. Be sure the checkbox next to <strong>Getting started</strong> is checked.</p>
 
- create a new container in SciServer Compute. At the bottom of the <em>Create a new container</em> dialog box, you will see a list of <strong>Data volumes</strong>. Be sure the checkbox next to <strong>Getting started</strong> is checked.</p>
-
-<p>Once you create the container with the Getting Started data volume mounted, you can access the Example Notebooks by going to the <em>getting_started</em> volume. They are in the Example-Notebooks folder.</p>
+<p>Once you create the container with the Getting Started data volume mounted, you can access these example notebooks from within Compute by going to the <strong>getting_started</strong> volume. They are in the <em>Example-Notebooks</em> folder.</p>
 
 <p>The Getting Started data volume is read-only, so you may run the notebooks but not make changes to them. The first thing you should do is to copy them into your persistent volume by running the <strong>Copy Example Notebooks.ipynb</strong> notebook. Doing so will create a new folder called <code>examples</code> inside your persistent volume, with read/write copies of all these notebooks. You can then change the notebooks, see what the changes do, and save your changes.</p>
 
@@ -28,28 +25,16 @@
 
 <code><strong>!git clone https://github.com/sciserver/Example-Notebooks.git {local directory name}</strong></code>
 
-For information on installing Example Notebooks, please see https://github.com/sciserver/Example-Notebooks/wiki/How-to-Install.
-
 
 <h3 id="update">Update</h3>
 
-We occasionally change these example notebooks, to add new examples or to take advantage of new SciServer features. To get the latest versions, run the notebook <strong><code>Update Example Notebooks.ipynb</code></strong>. The update notebook will work even if you run it from the new directory in your persistent volume, where you may then save the updated versions.
+<p>We occasionally change these example notebooks, to add new examples or to take advantage of new SciServer features. To get the latest versions, run the notebook <strong><code>Update Example Notebooks.ipynb</code></strong>. The update notebook will work even if you run it from the new directory in your persistent volume, where you may then save the updated versions.</p>
 
-If you run the update notebook after you have already made changes to your versions of the example notebooks, our version management system (git) will do its best to seamlessly merge the new updates with your changes. If it is unable to do so, it will generate a conflict. To learn how to resolve conflicts, see <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/">GitHub's guide to resolving conflicts</a>.
-
-For information on updating Example Notebooks, please see https://github.com/sciserver/Example-Notebooks/wiki/How-to-Update.
-
-<h3 id="usage">Usage</h3>
-
-[How to use Example Notebooks once they’re installed. This would also be a good place to include screenshots of your project in action.]
+<p>If you run the update notebook after you have already made changes to your versions of the example notebooks, our version management system (git) will do its best to seamlessly merge the new updates with your changes. If it is unable to do so, it will generate a conflict. To learn how to resolve conflicts, see <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/">GitHub's guide to resolving conflicts</a>.</p>
 
 <h3 id="contributing">Contributing</h3>
 
-[How to share your custom modifications with SciServer.]
-
-<h3 id="license">License</h3>
-
-[Find out license info from Mike R and put link to license file here.]
+<p>We encourage you to adapt and use these example notebooks any way you wish! If you would like to share your contributions with us and with other SciServer users, let us know by emailing the SciServer Helpdesk at sciserver-helpdesk@jhu.edu.</p>
 
 <h3 id="contact">Contact</h3>
 
