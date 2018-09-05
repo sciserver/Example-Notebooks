@@ -4,7 +4,8 @@
 <ul>
 <li><a href="#description">Description</a></li>
 <li><a href="#installation">Installation</a></li>
-<li><a href="#contributing">Contributing</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#update">Updating</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
 
@@ -25,7 +26,7 @@
 <code><strong>!git clone https://github.com/sciserver/Example-Notebooks.git {local directory name}</strong></code>
 
 
-<h3 id="update">Update</h3>
+<h3 id="update">Updating</h3>
 
 <p>We occasionally change these example notebooks, to add new examples or to take advantage of new SciServer features. To get the latest versions, run the notebook <strong><code>Update Example Notebooks.ipynb</code></strong>. The update notebook will work even if you run it from the new directory in your persistent volume, where you may then save the updated versions.</p>
 
