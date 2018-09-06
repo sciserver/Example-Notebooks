@@ -28,9 +28,15 @@
 
 <h3 id="updating">Updating</h3>
 
-<p>We occasionally change these example notebooks, to add new examples or to take advantage of new SciServer features. To get the latest versions, run the notebook <strong><code>Update Example Notebooks.ipynb</code></strong>. The update notebook will work even if you run it from the new directory in your persistent volume, where you may then save the updated versions.</p>
+<p>In the future, we may occasionally change these example notebooks, to add new examples or to take advantage of new SciServer features. Once we have made those future changes, you can integrate the changes into the Example Notebook copies you have made in your user volume.</p>
 
-<p>If you run the update notebook after you have already made changes to your versions of the example notebooks, our version management system (git) will do its best to seamlessly merge the new updates with your changes. If it is unable to do so, it will generate a conflict. To learn how to resolve conflicts, see <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/">GitHub's guide to resolving conflicts</a>.</p>
+<p>To get the latest versions, create a new Python 3 notebook and add this command to the first cell:</p>
+
+<code><strong>!git pull</strong></code>
+
+<p>Be sure to include the exclamation point as the first character.</p>
+
+<p>Run this command. Our version management system (git) will do its best to seamlessly merge the new updates with your changes. If it is unable to do so, it will generate a conflict. To learn how to resolve conflicts, see <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/">GitHub's guide to resolving conflicts</a>.</p>
 
 <h3 id="contributing">Contributing</h3>
 
