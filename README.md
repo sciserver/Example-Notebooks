@@ -2,9 +2,20 @@
 
 If you can see this, you have successfully registered for SciServer!
 
+<h2>Welcome to SciServer's <a href='https://github.com/sciserver/Example-Notebooks'>Example Notebooks</a> for Compute!</h2>
+
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#updating">Updating</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
 <h2>The first step</h2>
 
-The <strong><code>getting_started</code></strong> Data Volume contains many examples that can help you start using SciServer Compute right away. Starting from your SciServer Dashboard, follow these steps:
+<p>This repository contains example notebooks that can help you start using SciServer for your data science and science education projects. Use these example notebooks to learn Python syntax, and as templates for creating your own notebooks.</p>
 
 <ol>
     <li>Go to the Home tab (<a href="https://apps.sciserver.org/dashboard" target='_blank'>Launch in a new browser tab</a>)</li>
@@ -33,4 +44,18 @@ Alternatively, you can use git to clone these files from SciServer's public <a h
 
 Be sure to include the exclamation point (!) at the beginning of the command.
 
-Once you have copied the files into your persistent space, you can save your changes. Try changing different parts of the example notebooks to see what your changes do. Have fun!
+<h3 id="updating">Updating</h3>
+
+<p>In the future, we may occasionally change these example notebooks, to add new examples or to take advantage of new SciServer features. Once we have made those future changes, you can integrate the changes into the Example Notebook copies you have made in your user volume.</p>
+
+<p>To get the latest versions, create a new Python 3 notebook and add this command to the first cell:</p>
+
+<code><strong>!git pull</strong></code>
+
+<p>Be sure to include the exclamation point as the first character.</p>
+
+<p>Run this command. Our version management system (git) will do its best to seamlessly merge the new updates with your changes. If it is unable to do so, it will generate a conflict. To learn how to resolve conflicts, see <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/">GitHub's guide to resolving conflicts</a>.</p>
+
+<h3 id="contributing">Contributing</h3>
+
+<p>We encourage you to adapt and use these example notebooks any way you wish! If you would like to share your contributions with us and with other SciServer users, let us know by emailing the SciServer Helpdesk at sciserver-helpdesk@jhu.edu.</p>
