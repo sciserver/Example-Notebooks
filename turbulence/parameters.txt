@@ -1,1 +1,0 @@
-{"dataset": "isotropic8192", "filter_width": 1, "function": "u", "output_filename": "isotropic8192", "stridet": 1, "stridex": 1, "stridey": 1, "stridez": 1, "te": 1, "token": "edu.jhu.pha.turbulence.testing-201406", "ts": 1, "xe": 10, "xs": 1, "ye": 10, "ys": 1, "ze": 10, "zs": 1}
