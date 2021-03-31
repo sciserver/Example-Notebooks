@@ -11,7 +11,7 @@
 
 <h3 id="description">Description</h3>
 
-<p>This repository contains example notebooks that can help you start using SciServer for your data science and science education projects. Use these example notebooks to learn Python syntax, and as templates for creating your own notebooks.</p>
+The <strong><code>getting_started</code></strong> Data Volume contains many examples that can help you start using SciServer Compute right away. Starting from your SciServer Dashboard, follow these steps:
 
 <h3 id="installation">Installation</h3>
 
