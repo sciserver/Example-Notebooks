@@ -11,7 +11,7 @@
 
 <h3 id="description">Description</h3>
 
-The <strong><code>getting_started</code></strong> Data Volume contains many examples that can help you start using SciServer Compute right away. Starting from your SciServer Dashboard, follow these steps:
+<p>This repository contains example notebooks that can help you start using SciServer for your data science and science education projects. Use these example notebooks to learn Python syntax, and as templates for creating your own notebooks.</p>
 
 <h3 id="installation">Installation</h3>
 
@@ -46,4 +46,3 @@ The <strong><code>getting_started</code></strong> Data Volume contains many exam
 
 <p>For technical questions or to report a bug, please email sciserver-helpdesk@jhu.edu.</p>
 <p>For more information about SciServer, what it is, and what you can do with it, please visit www.sciserver.org.</p>
-Once you have copied the files into your persistent space, you can save your changes. Try changing different parts of the example notebooks to see what your changes do. Have fun!
