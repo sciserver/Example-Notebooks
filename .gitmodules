@@ -1,6 +1,0 @@
-[submodule "Astronomy/teaching/astro101"]
-	path = Astronomy/teaching/astro101
-	url = https://github.com/sciserver/astro101.git
-[submodule "Astronomy/teaching/astronomy-labs"]
-	path = Astronomy/teaching/astronomy-labs
-	url = https://github.com/sciserver/astronomy-labs.git
